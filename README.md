@@ -35,11 +35,11 @@
     exit  
     ```
 
+1. ### Start container
     ```sh
     docker run --privileged -p 8000:8000 -p 44300:44300 -p 3300:3300 -p 3200:3200 -h vhcalnplci --name nwabap752 -it nwabap:7.52 /bin/bash
     ```
-    
-    check via `sysctl vm.max_map_count` 
+    check sysctl via `sysctl vm.max_map_count`
 
 1. ### Start installation:
     ```sh
