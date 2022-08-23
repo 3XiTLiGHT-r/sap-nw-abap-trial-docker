@@ -20,13 +20,12 @@
     cd sap-nw-abap-trial-docker
     ```
 1. Download [SAP NW ABAP 7.52 SP01 Trial from SAP](https://developers.sap.com/germany/trials-downloads.html) (search for **7.52**), then:
-    - create a folder `sapdownloads` inside the clone
-
+- create a folder `sapdownloads` inside the clone
 - extract TD752SP04.part01.rar to /sapdownloads
 - extract Licence.rar
 - copy `SYBASE_ASE_TestDrive` to `sapdownloads\server\TAR\x86_64\`
   
-- build container
+1.  build container
     ```sh
     docker build -t nwabap:7.52 .
     wsl -d docker-desktop  
@@ -40,7 +39,7 @@
     
  - check via `sysctl vm.max_map_count` 
 
- Start installation:
+1.  Start installation:
     ```sh
     /usr/sbin/uuidd
     chmod u+s /bin/ping
