@@ -12,9 +12,7 @@
     swap=2GB
     kernelCommandLine=sysctl.vm.max_map_count=1000000
      ```
-    
-**IMPORTANT:** if you skip this step you may get an error during installation!
-    
+        
 1. Clone this repo
 
     ```sh
