@@ -13,4 +13,5 @@ docker run --privileged -p 8000:8000 -p 44300:44300 -p 3300:3300 -p 3200:3200 -h
 
 /usr/sbin/uuidd  
 chmod u+s /bin/ping  
-./install.sh  
+./custom_install.sh  
+
